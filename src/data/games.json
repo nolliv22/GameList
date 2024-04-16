@@ -60,7 +60,15 @@
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/9425be43ba92c2b4454ca7bf602efad8.png",
         "genres": ["Action"],
         "score": 6,
-        "releaseDate": "2017-25-07",
+        "releaseDate": "2017-07-25",
         "studio": "Epic Games"
+    },
+    {
+        "name": "Granblue Fantasy",
+        "icon": "https://cdn2.steamgriddb.com/icon_thumb/15bf3e20b7f13928232ff17a02c62f8b.png",
+        "genres": ["RPG"],
+        "score": 8,
+        "releaseDate": "2014-05-01",
+        "studio": "Cygames, Inc."
     }
 ]

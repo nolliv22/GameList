@@ -7,19 +7,50 @@
             {
                 "name": "Dofus",
                 "score": 8,
-                "playtime": 12,
-                "fav": true
+                "playtime": 170,
+                "fav": false
             },
             {
                 "name": "Terraria",
                 "score": 8,
-                "playtime": 42,
+                "playtime": 30,
+                "fav": false
+            },
+            {
+                "name": "Granblue Fantasy",
+                "score": 10,
+                "playtime": 300,
+                "fav": true
+            }
+        ]        
+    },
+    {
+        "name": "lebrocoli",
+        "password": "967520ae23e8ee14888bae72809031b98398ae4a636773e18fff917d77679334",
+        "avatar": "/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAkGBwgHBgkICAgKCgkLDhcPDg0NDhwUFREXIh4jIyEeICAlKjUtJScyKCAgLj8vMjc5PDw8JC1CRkE6RjU7PDn/2wBDAQoKCg4MDhsPDxs5JiAmOTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTn/wAARCAC4ALgDASIAAhEBAxEB/8QAHAABAAIDAQEBAAAAAAAAAAAAAAUGAQQHAwII/8QARxAAAQMDAwEFAwcGCwkAAAAAAQACAwQFEQYSITETIkFRYQcUcRUWMkKBkaEjUlSSsdEXJCUzNENVcpOU0gg3V2N0g7PB4f/EABsBAAEFAQEAAAAAAAAAAAAAAAACAwQFBgEH/8QAKREAAgICAgIBAgYDAAAAAAAAAAECAwQRBSESMRMGURQVIjIzQVJhcf/aAAwDAQACEQMRAD8ArjQGjAHCyiL0pJJaRjm99sIiIOBERABET0CG0vYa2E9FqVlxpaMHtZQHY4DeSo75efUSGKhpnPd+cf3KHZnVwel2yXXiWS79InEUFP8ALsgDm7I/Rqh6i63amkLJZntcPRRLeS+LuUWPwwPP1JF1RUeO/V7XAmdxVktV4hrmtYe7N4jzSsblK7nr0JvwJ1ra7JRExjqis1LZXtaCIiUAREQAREQBhwDhgjhFlE3Omux7nFP/AKhcbJx6i9BEROCAiIgAiDlPjwPFJlJLtnUnJ6R8TSxwML5HgNHXKrV01G4kspO63puPVaWoa91VWOY1x7NnAAKh8krLchys5ScK/SNBiYUYpSke/aOnqG9o4948lXVxprRbu1jYMEDoOpVEjPfb8VeaqnbWWyBj3bWkNycrnFylJTl7kGbpOCb6IZmpakztLmNEeegUhqOOKotYqtoDuCD4r3hsVvhIJbuPm5y9LzSvqbaYYAMft+Cnqi50zV0t7XREdtPyxda19yhr7hlfC9r2HBHQrEsbo3lrxgg8r5WW/VCX2Zd9SWi2WjUDXhsVVgOxgOVhBBAI6HouZhxHA4Vy0zcTVQe7yEmWMZB9FouL5GU5fFMqM7DSXyQJpERaMpQiIugEREAEREAEREAERZC5vQGOihNS3L3anEMbvyj+uD0CmnuDGl5cGgc5JVAu0/vFbK/cXAng4VPy2X8Vfin2yz46jzl5M03Oycr5RMFY/e32X/o+mDvAq6Vhzp7I6hgwVTG5YW7hj4q7Us9FWW2OF8jcBoBGccq54prU4702QM5a8Za9FOfVVDx3pXkfFTGnrrMyrZTyOLo38AHwUobNaiSQ4fY9ekdFaqN4l3R5byCXdE/j4l1c/kc+hu3Iqsi4KJEatgZHUMkYMGQcgKvZUzqK4x187eyHcZwCoZVWe4O5uJMxoyjUk/ZkFSNhqDT3GJ2Thx2kBRoHK96WQQ1Eb3Zw1wJwmcefhNMdnHyi0dIKwoCfVMLQOxgc4+O44Xh863foo/XK2C5SlJdme/L7m96LMirPzrd+iN/XKfOt36I39co/NqTv5dcWb45H2IoW2X732oEJpw0noQcqbPXx+1TaMiN0dxIt1E6nqRhERPjIREQARE6hJb12dRtUVgk1A8U/a9lTAgzFo5PoPirRRaK09RhvZ26OQjo+TLnfb5qrUOpfkCrijMEk8VSeWx8vHwCtNv1hQV1yjojFPTPcN38ZYYuMZyM+K885udsr2l6NVx8FGtG983rP/ZtP+qsfN+z9RbqYeoapiZrWSEM5b0B8x5rzWfdli9ssPFIjqmxWmpAE1vp3YGMbMKOn0Tp2VuBbY4yepYSD+1WPHGVhcV9kfUjjimUyb2bWR5JjfVR+nacLSn9l1A5p2V87T4Z5C6Aid/GW/wCTE/HH7FOo/ZvYYY4+3imme0cu34DlvnQmmP7LH+IVYsEc/tQjHVI+ez2mK8UVp2hNNujewW1gDhw4OJIUd/Bfp4/WrP8AFH7ldkQsi1e2Dit7OcXn2cWmipTUUxqXbD3mvkzn8FCttNAOPdGdPHldema18T2PGWlpC5lM3bM8DoCQPvWz+nJQyIyU1too+TlKvuLI/wCSbf8AosafJNv/AEWP7luotPHFpa/aVP4m3X7jWgoKSB26KBjHeBBWyiJ+uuNa1FDU5ym9yYRESxAREQAREXGgPrTkYq9d26ndGXgRvAaH7C47SeHeB9fBWTV1qnuum308LJYa+C6yspjNUGV78A7m7zyABlUG+yTUUlLX0z5IpYX/AM4w4LeV1XS1BFXW613meoqqqrdAHF007ngOI5wCcArBcy/jtbZreOXnBaJu1wSQW6CKfvSsjDXE88480bA/dtPTzW431GE8MLLTfk9l4qk0aMrCx2MFGRvcMgcLdIB6hZ6DASBLoRH4PTBzlQ2pL4LJUUFIKR9TU15cyMB4YGkEYzn4q0YGegz4cLnftSrpLVe9N3KNwD4ZnkuLdwA7uePgSpGNBSfYzbX4IsFysWrW22oqG1dHSPjaXbCDIc+Q5x+Cr/s+sGoNQT1E9zvksUNHL2c0DOXOO0OBDvtXU7PqC1aotc01oqPeGAFmCC0g+RB6fauYS3u66WsdTbJKjbq24zscY2Yly3Ib4ZDe6BhWfxxivREUpN6J3T1urm1dRVTXM1Nse90dLC5mHgZ4JPicKXkiewnAyF82KlfQ2eipHDaY4mtc0HIBCkB4qpvacifGlNEDeq5tstFXXSRuLIIy44XNo6htXGKhv0Ze8PRdduNDBcaKaiqGb6eduyRoJBI9CuJVkE+mr3U2+rY6GldI40+7nLc93n4LR/TuXGibT/sp+VxJSj0SSLAOR5jzX1hegRkmtoykl49MwiIlHAiIg4EREAEREAal3hfVWyaFgBcQD9yvfsrr45tNsoHyj3yme4PhP0mtzwVTwo+rpauGtbX2yd1PVNzy04J4/FZ3muNeRDcfZdcZm/FLxkd0PQHrjyUX8q1ET5DVWqqjgaeJmbZAR/daS78FW7J7RrVIaehujaimrAA2V0jQY2u8gQc88eCu0bxJE2RhJa4ZHOAQsFZRKiTjJGsrujYumRbNR21zgC+dgP1pKaVjW+pJaAB6le/y3aBx8q0Of+oZ+9b8mHtLXDc09QRwfReAoqTH9Eg5/wCU39yRuA52fcM0U8e+KRkjD9ZjtwP2haV9stFfqF1HXR72HlpHDmu8CCpBjGRsDWMDB+a0YAWU35OL2hXj5LsoVs9nE1ofI+3amrqR0g2vMUYBcPI8qX0xoygsL+3L3VdYD3aiUd5oxjAVn5ROSyJta2IjTFMfFYWVhMN79jyWhyOhUDq7TdJqK3shqHPjkidmORg7w9FPIl12ShJNCJwUlpnDy6ssMxt96hdFtJEVQ4EtePQ9Ct7IJG0hwPQjxHmuj6u0/DqS1iillETmuDmS7NxYR5D8FyumhqrXWT2WsG6am5DgctezPBC2/C8o7JKuTMryfHqK84m2iz8Fha5PZndaCIi6AREQAREQAREQ1sDWqbfTVee1Zh35zTg/HKHU2pNPSMipqqSpooeI2TtDmkepGCfvWyju83YR3fJVOXxdV/eiwx8+dX9nh/CzqIE/xOhH/bd/qW7b/anc5iPe2UMQ3YPdcOPvWsIIB/URfawLzloqWUgup4vI90DhUs/p33otIczr2dko6unrWCWlmZNGQCSx2ccL2zzhcWpaYUQIopqilLjk9lK5oJ8DjPKm7Jra5265Np75MKqknIDJcBhix58eo6qmzOCupj5lni8tC3pnUAi1aSvoqyPtKWrhnjyRuZICCtpUM6pRemWkZqXaCIiQOGFlFg/ej2cb0OvVc79qFNDR1lvucbA2WV3u8jgOCOo/YugSzxRN/KSxsb6uwuY3GWf2galntTKgRWmgd2jJI257YggEh3qCVacc5VWqZAzFGcPEjs8Dpg9MLC9tS0Utkv8A2REnyXMxojlcMtY783d58fivHjJ2kEei9Hw8yN0P9mLyMV1y2ERFO9kRoIiLoBERABERABERABERABDlzS0gFp6ghM469PFeFUap+2GjhllmecExs3BmTgE+ijZNkIQ/WSKISlP9JA3+lpoJ43QOdFUuIwxvQnwXRrPPr620xhltkFbzkvmrA4/DqvrSWhZKGsqKm+ijrXPDeywCdhBPPOMeCvojdMT2bHOd0HksNmKuybaNTjudcNbIDS+r7fqF3Y0z3e9xx9pNG5p7ngRnoeVY8eR48Fz+LQWoaXVU91sFbQ0sdQ8lrJQ9zT4lrgARj4rZqNB+0WqqXz/Omkhc852Rve1rfgA1VU8RNk6GVpFvuNbBbaCorap5ZBA3e8jrj0HiqaNdT3i6RW/SdDHcJthc4zOMIHoM4+K+YvZRqe43KjOpb9FXW+N57SJk0m8tPXblvwXUbDpuz2GLZa7fDTZaGvexvefj84+JS68WMRE8lyOX2v2U1lfXyXbVFeY5pyXCnj/K7T5EnggeGFe47c2CR9LRxRsjgGGxtAYGNHkOmFanRM7TtS0bwNu70Ub2T6Gslqyx0jJeNrBkqVrSIzlsqGobPDfLVPb537GyfReGZLSPEeA/+rlFXp656U3VNZtlt28N7RsmSCScZHXoF+hZIKe4QP7CNsc2cnI5Wt8g9qx7KkxvYWkY9fBSaMmVT2hqdamtM4XFIyUAxu3AjcARg4RbWo/ZpqWwR1F1gmgq29rxBTNe9+HHyx0CK/r5hePZWT41N9GuiItEUgREQAREQAREQwCIOuF4VdXDStzK4BxGWtPUnyCattjXHcmOVwc3pGauqhpGb5XegA6k/BdT9nuj57dTT1lxmbJLWhha2I4DGYJGcjr3l6aA0N8jwVc10dTV0lU9r4t8QcY2geZz1z+CvzWhrQAAABgAeAWP5DkZZD8V6RocXEVS2RwstKOfymT5uSXsbXTSdl9M4IDjkr7vEjmUg2P2uc4AFfMdPFRQmapfG7B/nJDgAeHJVVsmm1QRdnRxNyc7eV7BjWkkDknKrUWv9MTkx0l2iq5+jYYAXPcfAAY6k8KLq9a6kZUytpdBXOaAHuSPmawuHmW4OPvXEBe8A9UDQOi58Ncarz/u8uP+Zb+5Z+fGrP8Ah5cP8y3/AEroHQUwFWKbWVOynikvFvrrO57Rn3mPLN2OWtc3OcfALcs2rLFfal9NarnBWTMbvcyMnLW5xk8eZCPQGZ5Y6C6ukcHFkjOg81KxSRyAFrgcjplHNjdyWNdjoSFCWgfyrIQDty4H70AT2AenRF9BEAfm1ERelGNCIiACIiACIiGBh72xxue/hreXfDzXRvZXZbdcrHJdKqlgqu2nIj7aIOMew7eM/eubyU764soYMGeqcIYwT9Z3AXdND6eGl9OU1q7ftnRlz3PxgFzjk49FmecyO1CLLvjqlryZPNbtaB5LwrqhtNTueQST3Wgea2MqNvLy73aINB3vz9yzZbmmyKSQOrK1w2NaXdm44zgdB5Hhck1ALnry21mpqqqmtljp3NbDbp84nxjOCMAkuyBkHCs3t6uUlLaLRb2sBZWVgc9xJBbswRj47lb9Z4NBb8NA/lOk8Mf1gSJPxjsCmUNvgsNXd7dpvsbfcKt1KymkcA4sBZvkOTnjaCceYXvpq76mbqq52KuvMdzkgoXyslZC2NjZcgBpwOoz+KsVfHSMu1vkZQ0puFTL2TKpzO80NaS7kc/RBA9cLdnbT6Xs1VVO3zdpMJJncAvfI5rc46AdOPRRYXuyLcRbWnogdM1NXp64UltvNZPVS3Jreyk5eDPlxf1+gMFoHhwcKra5r611FfLsyWvoqqnusVLEz3l7Q2La36oOMO65x4q8XN9xo7ZXVNM6KSoa4yUzdgG1gxkHPjw7n4LSu+naPU1nkkdUTwxXeaGuIwMsIY0BvwwAk1ZG1uQOPZeR9DLh1auITaXN19zrrPI6y197r5SyaGRwDINjnNaQ0gfVXbm4DMDk458FznTv9F0QCMETO/8ADKpM56YnRtezrUrxVy6NubJzeLZGe0ne/tBOAeXbuo+k3r/6VpnpjQTNqY34aXgOZ55K0b5BDRaost2iiZ7zUSOt8h24JY5pfknxwY+P7xUxO/tK6GncAWgdp8cJ44b45CIOnCIA/NyIi9KMaEREAEREAE8vNF8TyiGKSQnhoJ/BN2z8IuQuEfKSR7ac31eu7HBTDtnNqGSP2/Va12SSv0Y0ccH4Li/sCs1LUsq769rjWQTuhYd3G0sGf2rtBIAzkAdTlYTOu+W1s1NFfxwSI68TyxSwRxv2b+CftWwyka3a57nySNH03Hdj4KMu7xVTRRwZdtGCW9BlTkQLY2A5yAAVEHiB1Xpi26moWQ3CnMj6d3aQua7a5rseB9eMrnVy1nW02nZrdq9zbZqCknZU0jWQlzajYQ5vTLQM93quykKMvFmtt8pTTXGihqonfVkb5HPB6hca2tMCix36C/09bTVYdbqUSEUt0hk/JOdG4cl/RpzjGTytm8w3662SNj6uiqaKD8uZqeR3a1WxpLRtA28uDTwfBVMezPWGn7lW1OnK+m9x3F0VLLKXGSMHcGOaW7cnA/eve33iw2yKGK8aLurLtAQZ/daZxiEgOe7h+MJiNCh1EVvfs3b3DfKGqsdVLdKySC473Vxc0xwU7TGMBw6NGSeT1Vs09JWN03SQ1dKIn0sQiY5sgeyZrW917ceBGOuCoib2o2qohfDNpzUD43ja9rqHII9RlVqPUdnpqd1PRU2uKaBuTHBFGNkeTnAyMgfak246lHUegUi23G6X7U9kp6Ow081urJA11TVTB0Tadw5LACNzs9MgY9VpVGqbRb9RtrbvWRRWylZspnuY93azuHL4wByAA5pcOO8qfRUPtJ1tQNa6X3GiYzaHzkw9vh31gMnP3K/6E0I+0vlud9dHVXafex4Dt8DWEgja0jg8Jah62c2amkn3rVGqJNRVmW6c2ZtsMhBy7JAkDRnBA3DJwe8Fdru1rKbtwS2VpAa7xUhHGyNgZGxrGAYDWjAC07vFJLRkRjJa4Ox8E+cNilcXU0ZdncWjJPii8aKrjna2MO/KNaNw8j4ogD88tIcMg8LKIvR65OUFJ/2jHzXjJpBERLEhERABaN7e5tsnxnkYKIouZ/EyRi/yo6N/s97W6Ur3tLiTWZcC3GO6Oh8eFfJmT3Cqe6J7mxZDe8MfFEWBn+5mq+xLU1LDAwtjYAD1+K2AMIiSBlY2jyREAYLQsAEIiAPrwREXAMbQeoys7R5IiAMrBwiLoEJVRRWmZ1ymmDYASZHHgNB8fvREQB//2Q==",
+        "games": [
+            {
+                "name": "League of Legends",
+                "score": 9,
+                "playtime": 166,
                 "fav": true
             },
             {
-                "name": "Fortnite",
+                "name": "Terraria",
                 "score": 6,
-                "playtime": 3,
+                "playtime": 2,
+                "fav": false
+            },
+            {
+                "name": "Star Wars: The Old Republic",
+                "score": 8,
+                "playtime": 60,
+                "fav": true
+            },
+            {
+                "name": "Genshin Impact",
+                "score": 5,
+                "playtime": 1,
                 "fav": false
             }
         ]        
