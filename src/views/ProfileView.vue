@@ -50,7 +50,7 @@ export default {
   <main v-if="USER.value">
     <div class="banner">
       <img :src="'data:image/png;base64,'+USER.value.avatar">
-      <h2>{{ USER.value.name }}</h2>
+      <h2 class="username">{{ USER.value.name }}</h2>
     </div>
 
     <div class="gameinfo">
@@ -90,14 +90,21 @@ main {
   gap: 10px;
 }
 
+
+.username{
+  display: flex;
+  flex-direction: row;
+  margin-left: -2%;
+}
+
 .banner {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  color: white;
   width: 100%;
   height: 200px;
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(22, 22, 47);
 }
 
 .banner img {

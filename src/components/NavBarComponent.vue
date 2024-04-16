@@ -34,8 +34,8 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(0, 0, 255, 0.329);
-  padding: 25px;
+  background-color: rgba(4, 4, 45, 0.873);
+  padding: 5  px;
   gap: 10%;
 }
 
@@ -49,13 +49,14 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
 }
 
 .nav-bar-button {
   padding: 10px;
   border-radius: 10px;
   color: white;
-  background-color: rgba(0, 0, 155, 0.651);
+  background-color: rgba(4, 4, 45, 0.873);
 }
 
 .nav-bar-button:hover {
@@ -65,7 +66,7 @@ export default {
 .login-button {
   padding: 10px;
   color: white;
-  background-color: rgba(0, 0, 155, 0.651);
+  background-color: rgba(4, 4, 45, 0.873);
 }
 
 .login-button:hover {
