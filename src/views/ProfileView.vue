@@ -3,9 +3,9 @@ import games from '../data/games.json'
 
 export default {
   methods: {
-    getGameByName: function (name) {
+    getGame: function (targetGame) {
       for (const game of games){
-        if (game.name == name){
+        if (game.name == targetGame.name){
           return game
         }
       }
@@ -36,6 +36,7 @@ export default {
     }
   },
   mounted() {
+    document.title = 'GameList - Profile';
     console.log("Current user: ", this.USER.value)
     console.log("Profile view mounted!")
     if (!this.USER.value){
@@ -65,18 +66,18 @@ export default {
         <h4>Favorite games</h4>
         <div class="favs">
           <div class="fav" v-for="(game, key) in favs" :key="key">
-            <img class="game-icon" :src="getGameByName(game.name).icon">
+            <img class="game-icon" :src="getGame(game).icon">
           </div>
         </div>
       </div>
       
       <div class="gamelist">
         <h3>Game List</h3>
-        <div class="game" v-for="(game, key) in USER.value.games" :key="key">
-          <img class="game-icon" :src="getGameByName(game.name).icon">
+        <RouterLink :to="{ path: '/game', query: getGame(game) }" class="game" v-for="(game, key) in USER.value.games" :key="key">
+          <img class="game-icon" :src="getGame(game).icon">
           <span>Score: {{ game.score }}/10</span>
           <span>Playtime: {{ game.playtime || 'NaN' }} day(s)</span>
-        </div> 
+        </RouterLink> 
       </div>
     </div>
   </main>

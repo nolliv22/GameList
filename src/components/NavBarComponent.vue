@@ -1,8 +1,11 @@
 <script>
 export default {
   name: 'NavBarComponent',
-  props: {
-    user: Object
+  methods: {
+    logout: function(){
+      this.USER.value = undefined
+      this.$router.push('/login')
+    }
   }
 };
 </script>
@@ -10,21 +13,22 @@ export default {
 <template>
   <nav class="nav-bar">
     <RouterLink to="/">
-      <img class="nav-bar-logo" src="/src/assets/logo.svg">
+      <img class="nav-bar-logo" src="/src/assets/logo.png">
     </RouterLink>
     
     <div class="nav-bar-buttons">
-      <RouterLink class="nav-bar-button" to="/profile">Profile</RouterLink>
       <RouterLink class="nav-bar-button" to="/browse">Browse</RouterLink>
+      <RouterLink v-if="USER.value" class="nav-bar-button" to="/profile">My Profile</RouterLink>
     </div>
 
-    <RouterLink to="/profile" v-if="user" class="nav-bar-user">
-      <span class="nav-bar-user-name">{{ user.name }}</span>
-      <img class="nav-bar-avatar" :src="'data:image/png;base64,'+user.avatar">
+    <RouterLink to="/login" v-if="!USER.value" class="nav-bar-log-button">
+      <span>Login</span>
+      <span class="material-symbols-outlined">login</span>
     </RouterLink>
-    <div v-else>
-      <RouterLink class="login-button" to="/login">Login</RouterLink>
-    </div>
+    <RouterLink to="/login" v-else v-on:click="logout()" class="nav-bar-log-button">
+      <span>Logout</span>
+      <span class="material-symbols-outlined">logout</span>
+    </RouterLink>
   </nav>
 </template>
 
@@ -34,9 +38,8 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(0, 0, 255, 0.329);
+  background-color: rgba(0, 0, 255, 0.541);
   padding: 25px;
-  gap: 10%;
 }
 
 .nav-bar-logo {
@@ -62,32 +65,17 @@ export default {
   background-color: rgba(0, 0, 155, 0.808);
 }
 
-.login-button {
-  padding: 10px;
-  color: white;
-  background-color: rgba(0, 0, 155, 0.651);
-}
-
-.login-button:hover {
-  background-color: rgba(0, 0, 155, 0.808);
-}
-
-.nav-bar-user {
+.nav-bar-log-button {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  border: solid black 2px;
-  border-radius: 10px;
-  padding: 1px 5px 1px 10px;
+  padding: 10px;
+  color: white;
+  background-color: rgba(18, 18, 77, 0.651);
 }
 
-.nav-bar-user-name {
-  font-weight: bold;
-}
-
-.nav-bar-avatar {
-  width: 50px;
-  height: 50px;
+.nav-bar-log-button:hover {
+  background-color: rgba(18, 18, 77, 0.808);
 }
 </style>

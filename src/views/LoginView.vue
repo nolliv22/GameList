@@ -18,6 +18,9 @@ export default {
             this.USER.value = user;
             this.failed = false
             console.log("Log in successfully as", this.USER.value)
+            setTimeout(()=>{
+              this.$router.push('/profile')
+            }, 1000)
             return
           }
         }
@@ -26,6 +29,7 @@ export default {
     }
   },
   mounted() {
+    document.title = 'GameList - Login';
     console.log("Current user: ", this.USER.value)
     console.log("Login view mounted!")
   }
@@ -39,7 +43,7 @@ export default {
     <form v-show="!USER.value" @submit.prevent="check">
       <span>
         Username:
-        <input v-model="username" required>
+        <input v-model="username" type="text" required>
       </span>
 
       <span>
@@ -47,13 +51,14 @@ export default {
         <input v-model="password" type="password" required>
       </span>
 
-      <button>Login</button>
+      <button type="submit">Login</button>
     </form>
 
-    <div v-if="USER.value">
-      <span>Logged in successfully! Welcome {{ USER.value.name }}.</span>
+    <div class="logged-in" v-if="USER.value">
+      <span>Logged in successfully!</span>
+      <span>Welcome {{ USER.value.name }}.</span>
+      <span>Redirecting automatically to your profile page...</span>
     </div>
-
     <div v-if="failed">
       <span>Username or password is incorrect.</span>
     </div>
@@ -69,6 +74,52 @@ main {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  gap: 10px;
+}
+
+input[type="text"]{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0f1563bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0f1463;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #0f1463;
+}
+
+.logged-in {
   display: flex;
   flex-direction: column;
   align-items: center;

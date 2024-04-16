@@ -1,6 +1,6 @@
 <template>
   <header>
-    <NavBarComponent :user="USER.value" />
+    <NavBarComponent />
   </header>
   
   <RouterView />
