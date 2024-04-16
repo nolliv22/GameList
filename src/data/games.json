@@ -70,5 +70,30 @@
         "score": 8,
         "releaseDate": "2014-05-01",
         "studio": "Cygames, Inc."
+    },
+    {
+        "name": "Utawarerumono: Mask of Truth",
+        "icon": "https://cdn2.steamgriddb.com/icon_thumb/1cf2bde29cc323599a0375d73c85e7d7.png",
+        "genres": ["VN"],
+        "score": 8,
+        "releaseDate": "2017-09-05",
+        "studio": "AQUAPLUS & STING"
+    },
+    {
+        "name": "Summer Pockets",
+        "icon": "https://cdn2.steamgriddb.com/icon/2d98fcc24951b689312a941144269ee7/24/256x256.png",
+        "genres": ["VN"],
+        "score": 8,
+        "releaseDate": "2022-03-14",
+        "studio": "Key"
+    },
+    {
+        "name": "Yu-Gi-Oh! Master Duel",
+        "icon": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/1449850/1eda4055bf77c7820f98ebc0ec3440e6e1ef25e5.jpg",
+        "genres": ["Strategy"],
+        "score": 7,
+        "releaseDate": "2022-01-18",
+        "studio": "Konami"
     }
+
 ]
