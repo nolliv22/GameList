@@ -67,27 +67,17 @@ export default {
   background-color: rgba(0, 0, 155, 0.808);
 }
 
-.login-button {
-  padding: 10px;
-  color: white;
-  background-color: rgba(4, 4, 45, 0.873);
-}
-
-.login-button:hover {
-  background-color: rgba(0, 0, 155, 0.808);
-}
-
-.nav-bar-user {
+.nav-bar-log-button {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
   padding: 10px;
   color: white;
-  background-color: rgba(18, 18, 77, 0.651);
+  background-color: rgba(4, 4, 45, 0.873);
 }
 
 .nav-bar-log-button:hover {
-  background-color: rgba(18, 18, 77, 0.808);
+  background-color: rgba(0, 0, 155, 0.808);
 }
 </style>
