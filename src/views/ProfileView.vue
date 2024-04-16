@@ -76,7 +76,7 @@ export default {
         <RouterLink :to="{ path: '/game', query: getGame(game) }" class="game" v-for="(game, key) in USER.value.games" :key="key">
           <img class="game-icon" :src="getGame(game).icon">
           <span>Score: {{ game.score }}/10</span>
-          <span>Playtime: {{ game.playtime || 'NaN' }} day(s)</span>
+          <span>Playtime: {{ game.playtime || 'NaN' }} hour(s)</span>
         </RouterLink> 
       </div>
     </div>
