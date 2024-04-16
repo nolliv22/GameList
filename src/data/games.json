@@ -3,48 +3,64 @@
         "name": "osu!",
         "icon": "https://cdn2.steamgriddb.com/icon/fe9fc289c3ff0af142b6d3bead98a923/32/256x256.png",
         "genres": ["Action"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2007-09-16",
+        "studio": "Peppy"
     },
     {
         "name": "Genshin Impact",
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/ac4e7a4f341e7281b0f6f274f9ec3905.png",
         "genres": ["RPG"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2020-09-28",
+        "studio": "miHoYo"
     },
     {
         "name": "Star Wars: The Old Republic",
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/a283c2fa682d70aae6928ffd73c13363.png",
         "genres": ["MMORPG"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2008-10-21",
+        "studio": "BioWare"
     },
     {
         "name": "Dofus",
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/e0ecb3873e6e419111b667b4a9e80467.png",
         "genres": ["MMORPG"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2004-09-01",
+        "studio": "Ankama Games"
     },
     {
         "name": "League of Legends",
         "icon": "https://cdn2.steamgriddb.com/icon/f8e8b1feff822753a39b21de69259fd6/32/256x256.png",
         "genres": ["MOBA"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2009-10-27",
+        "studio": "Rito Games"
     },
     {
         "name": "Palworld",
         "icon": "https://cdn2.steamgriddb.com/icon/74428c0a6c8f499e67f96908f425fdd3/32/256x256.png",
         "genres": ["Action", "Simulation"],
-        "score": 8
+        "score": 8,
+        "releaseDate": "2024-01-19",
+        "studio": "Pocket Pair"
     },
     {
         "name": "Terraria",
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/912b92ae7dbedd0344a6580a7b90efc6.png",
         "genres": ["Sandbox"],
-        "score": 9
+        "score": 9,
+        "releaseDate": "2011-05-16",
+        "studio": "Re-Logic"
     },
     {
         "name": "Fortnite",
         "icon": "https://cdn2.steamgriddb.com/icon_thumb/9425be43ba92c2b4454ca7bf602efad8.png",
         "genres": ["Action"],
-        "score": 6
+        "score": 6,
+        "releaseDate": "2017-25-07",
+        "studio": "Epic Games"
     }
 ]
