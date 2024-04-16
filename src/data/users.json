@@ -7,17 +7,20 @@
             {
                 "name": "Dofus",
                 "score": 8,
-                "playtime": 12
+                "playtime": 12,
+                "fav": true
             },
             {
                 "name": "Terraria",
                 "score": 8,
-                "playtime": 42
+                "playtime": 42,
+                "fav": true
             },
             {
                 "name": "Fortnite",
                 "score": 6,
-                "playtime": 3
+                "playtime": 3,
+                "fav": false
             }
         ]        
     }
