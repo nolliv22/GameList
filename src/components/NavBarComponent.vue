@@ -39,7 +39,7 @@ export default {
   align-items: center;
   justify-content: space-around;
   background-color: rgba(4, 4, 45, 0.873);
-  padding: 5  px;
+  padding: 5px;
   gap: 10%;
 }
 
