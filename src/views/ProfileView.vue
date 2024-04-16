@@ -17,20 +17,37 @@ export default {
       const G = new Set();
       const userGameNames = this.USER.value.games.map(game => game.name)
       for (const game of games){
-        if (1 || userGameNames.includes(game.name)){
+        if (userGameNames.includes(game.name)){
           for (const genre of game.genres){
             G.add(genre)
           }
         }
       }
       return G
+    },
+    favs() {
+      const F = new Set();
+      for (const game of this.USER.value.games){
+        if (game.fav){
+          F.add(game)
+        }
+      }
+      return F
+    }
+  },
+  mounted() {
+    console.log("Current user: ", this.USER.value)
+    console.log("Profile view mounted!")
+    if (!this.USER.value){
+      console.log("Not logged in, redirecting...")
+      this.$router.push("login")
     }
   }
 }
 </script>
 
 <template>
-  <main>
+  <main v-if="USER.value">
     <div class="banner">
       <img :src="'data:image/png;base64,'+USER.value.avatar">
       <h2>{{ USER.value.name }}</h2>
@@ -44,6 +61,13 @@ export default {
         <div class="genres">
           <span class="genre" v-for="(genre, key) in genres" :key="key">{{ genre }}</span> 
         </div>
+        
+        <h4>Favorite games</h4>
+        <div class="favs">
+          <div class="fav" v-for="(game, key) in favs" :key="key">
+            <img class="game-icon" :src="getGameByName(game.name).icon">
+          </div>
+        </div>
       </div>
       
       <div class="gamelist">
@@ -51,7 +75,7 @@ export default {
         <div class="game" v-for="(game, key) in USER.value.games" :key="key">
           <img class="game-icon" :src="getGameByName(game.name).icon">
           <span>Score: {{ game.score }}/10</span>
-          <span>Playtime: {{ game.playtime }} day(s)</span>
+          <span>Playtime: {{ game.playtime || 'NaN' }} day(s)</span>
         </div> 
       </div>
     </div>
@@ -103,6 +127,7 @@ main {
 }
 
 .genres {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -118,6 +143,18 @@ main {
   background-color: rgba(255, 123, 0, 0.623);
   padding: 5px;
   border-radius: 8px;
+}
+
+.favs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .gamelist {

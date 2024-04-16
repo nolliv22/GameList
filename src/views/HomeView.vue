@@ -8,8 +8,15 @@ export default {
 </script>
 
 <template>
-  HOME
+  <main>
+    <h1>GameList</h1>
+  </main>>
 </template>
   
 <style scoped>
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>

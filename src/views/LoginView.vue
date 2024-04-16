@@ -16,6 +16,7 @@ export default {
         if (this.username == user.name){
           if (sha256(this.password).toString() == user.password){
             this.USER.value = user;
+            this.failed = false
             console.log("Log in successfully as", this.USER.value)
             return
           }

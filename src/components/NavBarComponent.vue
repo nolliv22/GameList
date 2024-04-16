@@ -15,7 +15,7 @@ export default {
     
     <div class="nav-bar-buttons">
       <RouterLink class="nav-bar-button" to="/profile">Profile</RouterLink>
-      <a class="nav-bar-button">Browse</a>
+      <RouterLink class="nav-bar-button" to="/browse">Browse</RouterLink>
     </div>
 
     <RouterLink to="/profile" v-if="user" class="nav-bar-user">
