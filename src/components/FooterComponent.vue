@@ -13,7 +13,7 @@ export default {
       </div>
 
       <i>is developped by</i>
-      <span>Maxime Belpois (<i>the Gym enjoyer</i>)</span>
+      <span>Maxime Belpois (<i>the GYM enjoyer</i>)</span>
       <span>Villon Chen (<i>the CTF enjoyer</i>)</span>
       <span>William Chieu (<i>the AMQ enjoyer</i>)</span>
 
@@ -53,9 +53,6 @@ export default {
 
 <style scoped>
 footer {
-  position: relative;
-  top: 100%;
-  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
