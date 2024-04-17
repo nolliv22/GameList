@@ -15,6 +15,18 @@ export default defineConfig({
         short_name: 'GameList',
         theme_color: '#04042d',
         display: "fullscreen",
+        icons: [
+          {
+              src: "/favicon/android-chrome-192x192.png",
+              sizes: "192x192",
+              type: "image/png"
+          },
+          {
+            src: '/assets/icon.png',
+            sizes: '192x192',
+            type: "image/png",
+          }
+      ],
       },
     }),
   ],
