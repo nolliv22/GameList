@@ -79,7 +79,7 @@ pre {
 }
 
 .game {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -95,7 +95,8 @@ pre {
 }
 
 .section {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  font-size: larger;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 </style>
