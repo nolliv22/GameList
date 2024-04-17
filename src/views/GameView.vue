@@ -9,6 +9,16 @@ export default {
     document.title = `GameList - ${this.game.name}`;
     console.log("Current user: ", this.USER.value)
     console.log("Game view mounted!")
+  },
+  methods: {
+    genres: function(game){
+      console.log(game.genres)
+      if (Array.isArray(game.genres)){
+        return game.genres
+      } else {
+        return [game.genres]
+      }
+    }
   }
 }
 </script>
@@ -23,7 +33,7 @@ export default {
 
     <span>Genres</span>
     <div class="genres">
-      <span class="genre" v-for="(genre, key) in game.genres" :key="key">{{ genre }}</span> 
+      <span class="genre" v-for="(genre, key) in genres(game)" :key="key">{{ genre }}</span> 
     </div>
 
     <div class="split"></div>
