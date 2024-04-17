@@ -70,51 +70,53 @@ export default {
   <main>
     <h1>Browse Games</h1>
     
-    <div class="tips">
+    <div v-if="USER.value" class="tips">
       <span><u>Tips</u></span>
       <div class="tip">
-        <div>
+        <div class="tip-illu">
           <span class="button material-symbols-outlined">add</span>
           <span class="button material-symbols-outlined">remove</span>
        </div>
-       <span>: Add/Remove the given game to/from the list</span>
+       <span class="tip-text">Add/Remove the given game to/from the list</span>
       </div>
 
       <div class="tip">
-        <div>
+        <div class="tip-illu">
           <span class="button material-symbols-outlined">heart_plus</span>
           <span class="button material-symbols-outlined">heart_minus</span>
         </div>
-        <span>: Add/Remove the given game to/from favorite games</span>
+        <span class="tip-text">Add/Remove the given game to/from favorite games</span>
       </div>
 
       <div class="tip">
-        <select>
+        <select class="tip-illu">
           <option v-for="num in 11" :value="num-1">{{ num }}</option>
         </select>
-        <span>: your score for a given game</span>
+        <span class="tip-text">your score for a given game</span>
       </div>
 
 
       <div class="tip">
-        <input class="game-playtime">
-        <span>: your playtime for a given game</span>
+        <input class="tip-illu game-playtime">
+        <span class="tip-text">your playtime for a given game</span>
       </div>
       
     </div>
 
     <div class="filters">
+      <div class="sorting">
+        <span>Sort by:</span>
+        <span class="sort-button" @click="sortByName">By Name</span>
+        <span class="sort-button" @click="sortByScore">By Score</span>
+      </div>
+
       <div class="search">
         <span>Search: </span>
         <input v-model="filterText">
       </div>
-
-      <div class="sorting">
-        <span>Sort by: </span>
-        <span class="sort-button" @click="sortByName">By Name</span>
-        <span class="sort-button" @click="sortByScore">By Score</span>
-      </div>
     </div>
+
+    <div class="split"></div>
 
     <div class="games">
       <div class="game" v-for="(game, key) in filteredGames" :key="key">
@@ -217,7 +219,7 @@ main {
 }
 
 .commands {
-  width: 20%;
+  width: 175px;
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -262,5 +264,43 @@ main {
 .game-icon {
   width: 50px;
   height: 50px;
+}
+
+@media screen and (max-width: 650px) {
+  .filters {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .split {
+    width: 80vw;
+    border: solid black 1px;
+  }
+
+  .game {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .game:after {
+    content: '';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80vw;
+    border: solid black 1px;
+  }
+
+  .tip {
+    flex-direction: column;
+  }
+
+  .tip-text {
+    order: 1;
+  }
+
+  .tip-illu {
+    order: 2;
+  }
 }
 </style>

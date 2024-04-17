@@ -5,6 +5,7 @@ import App from './App.vue'
 import router from './router'
 
 import NavBarComponent from './components/NavBarComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 const app = createApp(App)
 
@@ -13,5 +14,6 @@ app.config.globalProperties.USER = ref(undefined)
 
 // Components
 app.component('NavBarComponent', NavBarComponent)
+app.component('FooterComponent', FooterComponent)
 
 app.use(router).mount('#app')

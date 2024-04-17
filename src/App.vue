@@ -1,9 +1,9 @@
 <template>
-  <header>
-    <NavBarComponent />
-  </header>
+  <NavBarComponent />
   
   <RouterView />
+
+  <FooterComponent />
 </template>
 
 <style scoped>

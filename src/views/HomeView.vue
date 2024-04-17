@@ -42,7 +42,7 @@ Start exploring and discovering new games today!
         <span>{{ game.score }}</span>
       </RouterLink>
     </div>
-  </main>>
+  </main>
     
 </template>
   

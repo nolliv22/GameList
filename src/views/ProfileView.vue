@@ -36,10 +36,11 @@ export default {
     }
   },
   mounted() {
-    document.title = 'GameList - Profile';
     console.log("Current user: ", this.USER.value)
     console.log("Profile view mounted!")
-    if (!this.USER.value){
+    if (this.USER.value){
+      document.title = `GameList - ${this.USER.value.name}`;
+    } else {
       console.log("Not logged in, redirecting...")
       this.$router.push("login")
     }
@@ -71,6 +72,8 @@ export default {
         </div>
       </div>
       
+      <div class="split"></div>
+      
       <div class="gamelist">
         <h3>Game List</h3>
         <RouterLink :to="{ path: '/game', query: getGame(game) }" class="game" v-for="(game, key) in USER.value.games" :key="key">
@@ -89,8 +92,8 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-top: 0px;
 }
-
 
 .username{
   display: flex;
@@ -123,8 +126,8 @@ main {
 .gameinfo {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 10vh;
+  justify-content: space-between;
+  gap: 5vw;
 }
 
 .gamestat {
@@ -187,5 +190,31 @@ main {
 .game-icon {
   width: 50px;
   height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .banner h2 {
+    position: relative;
+    left: 20%;
+  }
+
+  .gameinfo {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .split {
+    margin-top: 30px;
+    width: 80vw;
+    border: solid black 1px;
+  }
+
+  .gamestat {
+    width: 100%;
+  }
+
+  .gamelist {
+    width: 100%;
+  }
 }
 </style>
