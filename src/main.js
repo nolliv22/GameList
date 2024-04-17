@@ -17,3 +17,6 @@ app.component('NavBarComponent', NavBarComponent)
 app.component('FooterComponent', FooterComponent)
 
 app.use(router).mount('#app')
+
+// Service Workers
+"serviceWorker" in navigator && navigator.serviceWorker.register("service-worker.js")
