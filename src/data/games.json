@@ -5,7 +5,8 @@
         "genres": ["Action"],
         "score": 8,
         "releaseDate": "2007-09-16",
-        "studio": "Peppy"
+        "studio": "Peppy",
+        "description": "osu! is a free-to-play rhythm game. The game features a variety of game modes, including osu!standard, osu!taiko, osu!catch, and osu!mania, each with its own unique gameplay mechanics. In osu!standard, players click circles, sliders, and spinners in time with the music. The game features a vast library of user-created beatmaps, spanning a wide range of genres and difficulty levels."
     },
     {
         "name": "Genshin Impact",
@@ -13,7 +14,8 @@
         "genres": ["RPG"],
         "score": 8,
         "releaseDate": "2020-09-28",
-        "studio": "miHoYo"
+        "studio": "miHoYo",
+        "description": "Genshin Impact is a free-to-play action role-playing game. The game is set in the fantasy world of Teyvat, where players take on the role of the Traveler, a mysterious figure searching for their lost sibling. The game features an open-world environment, with various regions to explore, each with its own unique culture, history, and enemies. Players can control multiple characters, each with their own unique abilities and playstyles, and switch between them in combat to create powerful elemental reactions."
     },
     {
         "name": "Star Wars: The Old Republic",
@@ -21,7 +23,8 @@
         "genres": ["MMORPG"],
         "score": 8,
         "releaseDate": "2008-10-21",
-        "studio": "BioWare"
+        "studio": "BioWare",
+        "description": "Star Wars: The Old Republic is a massively multiplayer online role-playing game (MMORPG). The game is set in the Star Wars universe, thousands of years before the events of the films. Players can choose to play as a member of the Galactic Republic or the Sith Empire, and can select from a variety of classes, each with their own unique abilities and playstyles. The game features a rich storyline with fully-voiced dialogue, as well as dynamic combat and exploration."
     },
     {
         "name": "Dofus",
@@ -29,7 +32,8 @@
         "genres": ["MMORPG"],
         "score": 8,
         "releaseDate": "2004-09-01",
-        "studio": "Ankama Games"
+        "studio": "Ankama Games",
+        "description": "Dofus is a tactical turn-based MMORPG. The game is set in the fantasy world of the Krosmoz, where players can create and customize their own characters, choose from a variety of classes, and explore a vast open world filled with quests, monsters, and dungeons. The game features a unique combat system that emphasizes strategy and teamwork, as well as a rich crafting and economy system."
     },
     {
         "name": "League of Legends",
@@ -37,7 +41,8 @@
         "genres": ["MOBA"],
         "score": 8,
         "releaseDate": "2009-10-27",
-        "studio": "Rito Games"
+        "studio": "Rito Games",
+        "description": "League of Legends is a popular multiplayer online battle arena (MOBA) game. In the game, players control a champion with unique abilities and battle against a team of other players or computer-controlled champions. The goal is to destroy the opposing team's Nexus a structure located in their base. League of Legends features a diverse roster of champions, each with their own strengths, weaknesses, and playstyles. With its fast-paced gameplay, strategic depth, and active esports scene, League of Legends has become one of the most played games in the world.",
     },
     {
         "name": "Palworld",
@@ -45,7 +50,8 @@
         "genres": ["Action", "Simulation"],
         "score": 8,
         "releaseDate": "2024-01-19",
-        "studio": "Pocket Pair"
+        "studio": "Pocket Pair",
+        "description": "Palworld is an open-world survival game. The game is set in a world filled with mysterious creatures known as Pal, which players can capture, train, and evolve. Players can explore a vast open world, gather resources, build shelters, and battle against other players and creatures. The game features a unique "life simulation" system, where players must take care of their Pal's needs, such as hunger, thirst, and sleep."
     },
     {
         "name": "Terraria",
@@ -53,7 +59,8 @@
         "genres": ["Sandbox"],
         "score": 9,
         "releaseDate": "2011-05-16",
-        "studio": "Re-Logic"
+        "studio": "Re-Logic",
+        "description": "Terraria is a 2D sandbox action-adventure game. The game features a procedurally generated world filled with resources, monsters, and dungeons. Players can explore the world, gather resources, craft tools and weapons, and build structures to defend against enemies. The game features a variety of biomes, each with its own unique creatures and challenges, as well as a dynamic weather system and day/night cycle."
     },
     {
         "name": "Fortnite",
@@ -61,7 +68,8 @@
         "genres": ["Action"],
         "score": 6,
         "releaseDate": "2017-07-25",
-        "studio": "Epic Games"
+        "studio": "Epic Games",
+        "description": "Fortnite is a free-to-play battle royale game. The game features a massive online multiplayer mode where 100 players are dropped onto an island and must fight to be the last one standing. Players can gather resources, build structures, and use a variety of weapons and items to outmaneuver and eliminate their opponents. The game also features a creative mode where players can build and design their own worlds, as well as a cooperative mode where players can team up to complete missions and fight against computer-controlled enemies."
     },
     {
         "name": "Granblue Fantasy",
@@ -69,7 +77,8 @@
         "genres": ["RPG"],
         "score": 8,
         "releaseDate": "2014-05-01",
-        "studio": "Cygames, Inc."
+        "studio": "Cygames, Inc.",
+        "description": "Granblue Fantasy is a free-to-play mobile RPG. The game is set in a fantasy world where players take on the role of a skyfarer, exploring the skies and battling against monsters and other enemies. The game features a turn-based combat system, with a variety of characters and classes to choose from, each with their own unique abilities and playstyles. The game also features a rich storyline with fully-voiced dialogue, as well as a variety of events and challenges to keep players engaged."
     },
     {
         "name": "Utawarerumono: Mask of Truth",
@@ -77,7 +86,8 @@
         "genres": ["VN"],
         "score": 8,
         "releaseDate": "2017-09-05",
-        "studio": "AQUAPLUS & STING"
+        "studio": "AQUAPLUS & STING",
+        "description": "Utawarerumono: Mask of Truth is a visual novel. The game is set in a fantasy world and follows the story of Haku, a man with no memories who finds himself in the midst of a conflict between various factions. The game features a branching storyline with multiple endings, as well as a turn-based combat system. The game also features beautiful artwork, fully-voiced dialogue, and a rich soundtrack."
     },
     {
         "name": "Summer Pockets",
@@ -85,7 +95,8 @@
         "genres": ["VN"],
         "score": 8,
         "releaseDate": "2022-03-14",
-        "studio": "Key"
+        "studio": "Key",
+        "description": "Summer Pockets is a visual novel. The game is set on a remote island and follows the story of a young man named Hairi Takahara, who is spending the summer there with his family. The game features a branching storyline with multiple endings, as well as a variety of mini-games and activities to participate in. The game also features beautiful artwork, fully-voiced dialogue, and a relaxing soundtrack."
     },
     {
         "name": "Yu-Gi-Oh! Master Duel",
@@ -93,7 +104,8 @@
         "genres": ["Strategy"],
         "score": 7,
         "releaseDate": "2022-01-18",
-        "studio": "Konami"
+        "studio": "Konami",
+        "description": "Yu-Gi-Oh! Master Duel is a free-to-play digital card game. The game features a massive library of cards from the Yu-Gi-Oh! trading card game, as well as a variety of game modes, including single player, multiplayer, and tournament play. The game also features a robust deck-building system, allowing players to create and customize their own decks."
     }
 
 ]
