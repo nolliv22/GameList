@@ -66,6 +66,7 @@ export default {
 
   .nav-bar-buttons {
     width: 100%;
+    justify-content: space-evenly;
   }
 }
 
