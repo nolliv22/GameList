@@ -8,7 +8,7 @@ export default {
   <footer>
     <div class="info">
       <div class="info-icon-name">
-        <img class="info-logo" src="/logo_black.png">
+        <img class="info-logo" src="/logo_black.png" alt="GameList logo">
         <i>GameList</i>
       </div>
 

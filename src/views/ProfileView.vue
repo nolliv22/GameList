@@ -51,7 +51,7 @@ export default {
 <template>
   <main v-if="USER.value">
     <div class="banner">
-      <img :src="'data:image/png;base64,'+USER.value.avatar">
+      <img :src="'data:image/png;base64,'+USER.value.avatar" :alt="USER.value.name.toLowerCase()+'-avatar'">
       <h2 class="username">{{ USER.value.name }}</h2>
     </div>
 
@@ -67,7 +67,7 @@ export default {
         <h4>Favorite games</h4>
         <div class="favs">
           <div class="fav" v-for="(game, key) in favs" :key="key">
-            <img class="game-icon" :src="getGame(game).icon">
+            <img class="game-icon" :src="getGame(game).icon" :alt="game.name+' icon'">
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ export default {
       <div class="gamelist">
         <h3>Game List</h3>
         <RouterLink :to="{ path: '/game', query: getGame(game) }" class="game" v-for="(game, key) in USER.value.games" :key="key">
-          <img class="game-icon" :src="getGame(game).icon">
+          <img class="game-icon" :src="getGame(game).icon" :alt="game.name+' icon'">
           <span>Score: {{ game.score }}/10</span>
           <span>Playtime: {{ game.playtime || 'NaN' }} hour(s)</span>
         </RouterLink> 

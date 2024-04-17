@@ -14,7 +14,7 @@ export default {
   <header>
     <nav class="nav-bar">
       <RouterLink to="/">
-        <img class="nav-bar-logo" src="/logo.png">
+        <img class="nav-bar-logo" src="/logo.png" alt="GameList logo">
       </RouterLink>
       
       <div class="nav-bar-buttons">

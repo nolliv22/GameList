@@ -18,7 +18,7 @@ export default {
 
 <template>
   <main>
-    <img src="/logo_black.png" style="width: 150px; height: 150px;">
+    <img class="logo" src="/logo_black.png" alt="GameList logo">
 
     <h1>GameList</h1>
 
@@ -32,11 +32,11 @@ Start exploring and discovering new games today!
 
     <div class="split"></div>
 
-    <h3>Trending games</h3>
+    <span class="section">Trending games</span>
 
     <div class="games">
       <RouterLink :to="{ path: '/game', query: game }" class="game" v-for="(game, key) in games.slice(0, 5)" :key="key">
-        <img class="game-icon" :src="game.icon">
+        <img class="game-icon" :src="game.icon" :alt="game.name+' icon'">
         <span>{{ key+1 }}. {{ game.name }}</span>
         <span style="width: 50px;">{{ game.score }}</span>
       </RouterLink>
@@ -57,6 +57,11 @@ pre {
   text-align: center;
   width: 80%;
   white-space: pre-wrap;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
 }
 
 .split {
@@ -87,5 +92,10 @@ pre {
 .game-icon {
   width: 50px;
   height: 50px;
+}
+
+.section {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 </style>

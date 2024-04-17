@@ -17,7 +17,7 @@ export default {
   <main>
     <h1>{{ game.name }}</h1>
     <span>Score: {{ game.score }}</span>
-    <img class="game-img" :src="game.icon">
+    <img class="game-img" :src="game.icon" :alt="game.name+' icon'">
 
     <div class="split"></div>
 

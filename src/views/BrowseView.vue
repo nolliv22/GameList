@@ -120,7 +120,7 @@ export default {
     <div class="games">
       <div class="game" v-for="(game, key) in filteredGames" :key="key">
         <RouterLink :to="{ path: '/game', query: game }" class="game-info" :class="{ 'game-info-shorter': USER.value }">
-          <img class="game-icon" :src="game.icon">
+          <img class="game-icon" :src="game.icon" :alt="game.name+' icon'">
           <span>{{ game.name }}</span>
           <span>{{ game.score }}</span>
         </RouterLink>

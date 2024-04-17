@@ -15,8 +15,10 @@ export default defineConfig({
         short_name: 'GameList',
         theme_color: '#04042d',
         display: "fullscreen",
+        description: "Keep track of all the video games you have ever played, whether on PC, console, or mobile.",
       },
       includeAssets: [
+        '**/robots.txt',
         '**/logo.png',
         '**/logo_black.png'
       ]
