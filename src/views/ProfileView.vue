@@ -66,9 +66,9 @@ export default {
         
         <h4>Favorite games</h4>
         <div class="favs">
-          <div class="fav" v-for="(game, key) in favs" :key="key">
+          <RouterLink :to="{ path: '/game', query: getGame(game) }" class="fav" v-for="(game, key) in favs" :key="key">
             <img class="game-icon" :src="getGame(game).icon" :alt="game.name+' icon'">
-          </div>
+          </RouterLink>
         </div>
       </div>
       

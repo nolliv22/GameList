@@ -30,6 +30,11 @@ export default {
 
     <span>Studio: {{ game.studio }}</span>
     <span>Release date: {{ game.releaseDate }}</span>
+
+    <div class="split"></div>
+
+    <span>Description</span>
+    <pre>{{ game.description }}</pre>
     
   </main>
 </template>
@@ -66,5 +71,12 @@ main {
   background-color: rgba(255, 123, 0, 0.623);
   padding: 5px;
   border-radius: 8px;
+}
+
+pre {
+  margin-top: -10px;
+  text-align: center;
+  width: 70%;
+  white-space: pre-wrap;
 }
 </style>
