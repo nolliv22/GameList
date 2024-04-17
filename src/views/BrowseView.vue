@@ -119,7 +119,7 @@ export default {
 
     <div class="games">
       <div class="game" v-for="(game, key) in filteredGames" :key="key">
-        <RouterLink :to="{ path: '/game', query: game }" class="game-info">
+        <RouterLink :to="{ path: '/game', query: game }" class="game-info" :class="{'game-info-logged': USER.value}">
           <img class="game-icon" :src="game.icon" :alt="game.name+' icon'">
           <span>{{ game.name }}</span>
           <span>{{ game.score }}</span>
@@ -246,7 +246,7 @@ main {
 }
 
 .game-info {
-  width: calc(90vw - 175px);
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -254,6 +254,10 @@ main {
   border: solid black 1px;
   padding: 0px 10px 0px 10px;
   border-radius: 10px;
+}
+
+.game-info-logged {
+  width: calc(90vw - 180px);
 }
 
 .game-icon {
