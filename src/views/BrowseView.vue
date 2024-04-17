@@ -89,7 +89,7 @@ export default {
 
       <div class="tip">
         <select class="tip-illu">
-          <option v-for="num in 11" :value="num-1">{{ num }}</option>
+          <option v-for="num in 11" :value="10-(num-1)">{{ 10-(num-1) }}</option>
         </select>
         <span class="tip-text">your score for a given game</span>
       </div>
@@ -133,7 +133,7 @@ export default {
           <span class="button material-symbols-outlined" v-if="isFav(game) && isAdded(game)" @click="unfavGame(game)">heart_minus</span>
 
           <select v-if="isAdded(game)" v-model="getUserGame(game).score">
-            <option v-for="num in 10" :value="num">{{ num }}</option>
+            <option v-for="num in 11" :value="10-(num-1)">{{ 10-(num-1) }}</option>
           </select>
 
           <input class="game-playtime" v-if="isAdded(game)" v-model="getUserGame(game).playtime">
