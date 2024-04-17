@@ -7,6 +7,7 @@ export default {
     return {
       username: "",
       password: "",
+      successfulText: "Redirecting automatically to your profile page",
       failed: false
     }
   },
@@ -18,9 +19,14 @@ export default {
             this.USER.value = user;
             this.failed = false
             console.log("Log in successfully as", this.USER.value)
+            for (let i=1; i<=3; i++){
+              setTimeout(()=>{
+                this.successfulText = `Redirecting automatically to your profile page${'.'.repeat(i)}`
+              }, 500*i)
+            }
             setTimeout(()=>{
               this.$router.push('/profile')
-            }, 1000)
+            }, 500*4)
             return
           }
         }
@@ -57,7 +63,7 @@ export default {
     <div class="logged-in" v-if="USER.value">
       <span>Logged in successfully!</span>
       <span>Welcome {{ USER.value.name }}.</span>
-      <span>Redirecting automatically to your profile page...</span>
+      <span>{{ successfulText }}</span>
     </div>
     <div v-if="failed">
       <span>Username or password is incorrect.</span>
