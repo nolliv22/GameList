@@ -35,10 +35,10 @@ export default defineConfig({
             type: "image/png"
         },
         {
-          "src": "/maskable_icon.png",
-          "sizes": "512x512",
-          "type": "image/png",
-          "purpose": "maskable"
+          src: "/favicon/maskable_icon.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "maskable"
         }
       ],
     }),
