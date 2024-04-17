@@ -14,7 +14,7 @@ export default {
   <header>
     <nav class="nav-bar">
       <RouterLink to="/">
-        <img class="nav-bar-logo" src="/src/assets/logo.png">
+        <img class="nav-bar-logo" src="/logo.png">
       </RouterLink>
       
       <div class="nav-bar-buttons">

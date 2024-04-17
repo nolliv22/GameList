@@ -18,7 +18,7 @@ export default {
 
 <template>
   <main>
-    <img src="../assets/logo_black.png" style="width: 150px; height: 150px;">
+    <img src="/logo_black.png" style="width: 150px; height: 150px;">
 
     <h1>GameList</h1>
 
