@@ -36,7 +36,6 @@ export default {
       this.games.sort((g1, g2) => {
         return g2.score - g1.score
       })
-      console.log(this.games)
     },
     addGame: function(targetGame){
       this.USER.value.games.push(targetGame)

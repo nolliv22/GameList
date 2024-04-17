@@ -4,7 +4,6 @@ export default {
   data() {
     return {
       games: games.sort((g1, g2) => {
-        console.log(g1.score, g2.score)
         return g2.score - g1.score
       })
     }
