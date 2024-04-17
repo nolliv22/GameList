@@ -13,6 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'GameList',
         short_name: 'GameList',
+        background_color: "#ffffff",
         theme_color: '#04042d',
         display: "fullscreen",
         description: "Keep track of all the video games you have ever played, whether on PC, console, or mobile.",
@@ -21,7 +22,25 @@ export default defineConfig({
         '**/robots.txt',
         '**/logo.png',
         '**/logo_black.png'
-      ]
+      ],
+      icons: [
+        {
+            src: "/favicon/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+        },
+        {
+            src: "/favicon/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png"
+        },
+        {
+          "src": "/maskable_icon.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ],
     }),
   ],
   resolve: {
