@@ -1,5 +1,11 @@
 # GameList
 
+## Preview
+
+Expectation: ![Sketch](./sketch.png)
+
+Reality: ![Screenshot](screenshot.png)
+
 ## Project Setup
 
 Install dependencies:
