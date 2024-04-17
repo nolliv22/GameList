@@ -17,7 +17,8 @@ export default defineConfig({
         display: "fullscreen",
       },
       includeAssets: [
-        'assets/*'
+        '**/logo.png',
+        '**/logo_black.png'
       ]
     }),
   ],
