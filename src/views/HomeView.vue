@@ -35,10 +35,10 @@ Start exploring and discovering new games today!
     <h3>Trending games</h3>
 
     <div class="games">
-      <RouterLink :to="{ path: '/game', query: game }" class="game" v-for="(game, key) in games" :key="key">
+      <RouterLink :to="{ path: '/game', query: game }" class="game" v-for="(game, key) in games.slice(0, 5)" :key="key">
         <img class="game-icon" :src="game.icon">
-        <span>{{ game.name }}</span>
-        <span>{{ game.score }}</span>
+        <span>{{ key+1 }}. {{ game.name }}</span>
+        <span style="width: 50px;">{{ game.score }}</span>
       </RouterLink>
     </div>
   </main>
