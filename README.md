@@ -6,7 +6,7 @@
 
 <img src="./public/logo_black.png" style="width: 200px; height: 200px">
 
-*Project for the course [WebInterface at EURECOM](https://www.eurecom.fr/en/course/webint-2024spring)*
+*Project for the course [WebInteraction at EURECOM](https://www.eurecom.fr/en/course/webint-2024spring)*
 
 </div>
 
