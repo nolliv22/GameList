@@ -1,10 +1,27 @@
+
+
+<div align=center markdown="1">
+
 # GameList
 
-## Preview
+<img src="./public/logo_black.png" style="width: 200px; height: 200px">
 
-Expectation: ![Sketch](./sketch.png)
+*Project for the course [WebInterface at EURECOM](https://www.eurecom.fr/en/course/webint-2024spring)*
 
-Reality: ![Screenshot](screenshot.png)
+</div>
+
+## Demo
+The project demo is available [here](https://gamelist.nolliv22.com/).
+
+## Visuals
+
+**Expectation** (*sketch*): 
+
+![Sketch](./sketch.png)
+
+**Reality**: 
+
+![Screenshot](screenshot.png)
 
 ## Project Setup
 
