@@ -17,29 +17,29 @@ export default defineConfig({
         theme_color: '#04042d',
         display: "fullscreen",
         description: "Keep track of all the video games you have ever played, whether on PC, console, or mobile.",
+        icons: [
+          {
+              src: "/favicon/android-chrome-192x192.png",
+              sizes: "192x192",
+              type: "image/png",
+          },
+          {
+              src: "/favicon/android-chrome-512x512.png",
+              sizes: "512x512",
+              type: "image/png"
+          },
+          {
+            src: "/favicon/maskable_icon.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "maskable"
+          }
+        ],
       },
       includeAssets: [
         '**/robots.txt',
         '**/logo.png',
         '**/logo_black.png'
-      ],
-      icons: [
-        {
-            src: "/favicon/android-chrome-192x192.png",
-            sizes: "192x192",
-            type: "image/png",
-        },
-        {
-            src: "/favicon/android-chrome-512x512.png",
-            sizes: "512x512",
-            type: "image/png"
-        },
-        {
-          src: "/favicon/maskable_icon.png",
-          sizes: "512x512",
-          type: "image/png",
-          purpose: "maskable"
-        }
       ],
     }),
   ],
